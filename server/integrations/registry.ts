@@ -22,6 +22,7 @@ import { plugin as uptimekuma } from './uptimekuma';
 import { plugin as unraid } from './unraid';
 import { plugin as tautulli } from './tautulli';
 import { plugin as sabnzbd } from './sabnzbd';
+import { plugin as unifi } from './unifi';   // ← added
 
 // All registered plugins
 export const plugins: IntegrationPlugin[] = [
@@ -39,6 +40,7 @@ export const plugins: IntegrationPlugin[] = [
     unraid,
     tautulli,
     sabnzbd,
+    unifi,               // ← added
 ];
 
 // Map for O(1) lookup by ID
